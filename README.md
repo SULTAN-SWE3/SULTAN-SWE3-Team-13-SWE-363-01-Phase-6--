@@ -7,6 +7,7 @@
 ## Live Deployment
 
 Frontend: https://sultan-swe-3-team-13-swe-363-01-pha.vercel.app
+Backend API: https://swe-compass-api.onrender.com
 
 ---
 
