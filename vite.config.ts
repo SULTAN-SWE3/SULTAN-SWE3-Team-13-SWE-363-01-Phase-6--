@@ -10,6 +10,22 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    target: 'es2020',
+    minify: 'esbuild',
+    cssMinify: 'esbuild',
+    cssCodeSplit: true,
+    sourcemap: false,
+    assetsInlineLimit: 4096,
+    reportCompressedSize: true,
+    rollupOptions: {
+      output: {
+        entryFileNames: 'assets/[name]-[hash].js',
+        chunkFileNames: 'assets/[name]-[hash].js',
+        assetFileNames: 'assets/[name]-[hash][extname]',
+      },
+    },
+  },
   resolve: {
     alias: {
       // Alias @ to the src directory

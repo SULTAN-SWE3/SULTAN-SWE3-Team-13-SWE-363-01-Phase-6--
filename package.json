@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "postbuild": "node scripts/compress-dist-assets.mjs",
     "dev": "vite"
   },
   "dependencies": {
