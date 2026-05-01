@@ -4,6 +4,12 @@
 
 ---
 
+## Live Deployment
+
+Frontend: https://sultan-swe-3-team-13-swe-363-01-pha.vercel.app
+
+---
+
 ## 👥 Team Members
 
 | Member | Name | Phase 5 Role | Phase 6 Role |
